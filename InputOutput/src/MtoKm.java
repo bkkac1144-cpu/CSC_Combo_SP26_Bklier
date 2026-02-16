@@ -4,7 +4,7 @@ public class MtoKm {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-		double miles, kM;
+		double fahrenheit, celsius;
 		
 		System.out.println("How many miles?");
 		miles = input.nextDouble();
