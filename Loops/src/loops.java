@@ -47,6 +47,14 @@ public class loops {
 			}
 			System.out.println();
 		}
-
+		System.out.print("Roman alphabet: ");
+		for(char c = 'A';c <= 'z'; c++)
+		{
+			System.out.print(c);
+		}
+		System.out.print("Greek Alphabet");
+		for (int i = 913; i <= 937; i++) {
+			System.out.print((char) i);
+		}
 	}
 }
