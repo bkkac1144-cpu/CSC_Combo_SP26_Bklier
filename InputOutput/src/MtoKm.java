@@ -7,7 +7,7 @@ public class MtoKm {
 		double fahrenheit, celsius;
 		
 		System.out.println("How many miles?");
-		miles = input.nextDouble();
+		double miles = input.nextDouble();
 		
 		kM = miles * 1.60934;
 		
