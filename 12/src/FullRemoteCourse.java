@@ -8,7 +8,7 @@ public class FullRemoteCourse extends OnlineCourse {
 		
 	}
 
-	public FullRemoteCourse(String str,int numSt, int maxSt, double credits, String Email) {
+	public FullRemoteCourse(String courseNum,int numSt, int maxSt, double credits, String Email) {
 		super(Email, numSt, maxSt, credits);
 		this.Email = Email;
 	}
@@ -22,8 +22,8 @@ public class FullRemoteCourse extends OnlineCourse {
 	}
 	@Override
 	public String toString() {
-		return "FullRemoteCourse: " + "\nstr: " + str + "\nnumSt: " + numSt + "\nmaxSt: " + maxSt + "\ncredits: "
-				+ credits + "\nEmail: " + Email+ "\n********************";
+		return "FullRemoteCourse: " + "\ncourseNum: " + super.getCourseNum() + "\nnumSt: " + super.getNumSt() + "\nmaxSt: " + super.getMaxSt() + "\ncredits: "
+				+ super.getCredits() + "\nEmail: " + Email+ "\n********************";
 	}
 
 	

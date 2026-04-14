@@ -5,8 +5,8 @@ public class OnlineCourse extends Course {
 		// TODO Auto-generated constructor stub
 	}
 
-	public OnlineCourse(String str, int numSt, int maxSt, double credits) {
-		super(str, numSt, maxSt, credits);
+	public OnlineCourse(String courseNum, int numSt, int maxSt, double credits) {
+		super(courseNum, numSt, maxSt, credits);
 		// TODO Auto-generated constructor stub
 	}
 

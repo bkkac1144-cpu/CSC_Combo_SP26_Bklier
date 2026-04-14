@@ -7,8 +7,8 @@ public class RealTimeRemoteCourse extends OnlineCourse {
 		// TODO Auto-generated constructor stub
 	}
 
-	public RealTimeRemoteCourse( String str, int numSt, int maxSt, double credits, String zoomInfo) {
-		super(str, numSt, maxSt, credits);
+	public RealTimeRemoteCourse( String courseNum, int numSt, int maxSt, double credits, String zoomInfo) {
+		super(courseNum, numSt, maxSt, credits);
 		this.zoomInfo = zoomInfo;
 	}
 
@@ -21,8 +21,8 @@ public class RealTimeRemoteCourse extends OnlineCourse {
 	}
 	@Override
 	public String toString() {
-		return "RealTimeCourse: " + "\nstr: " + str + "\nnumSt: " + numSt + "\nmaxSt: " + maxSt + "\ncredits: "
-				+ credits + "\nzoomInfo: " + zoomInfo + "\n********************";
+		return "RealTimeCourse: " + "\ncourseNum: " + super.getCourseNum() + "\nnumSt: " + super.getNumSt() + "\nmaxSt: " + super.getMaxSt() + "\ncredits: "
+				+ super.getCredits() + "\nzoomInfo: " + zoomInfo + "\n********************";
 	}
 
 	
