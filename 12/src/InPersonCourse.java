@@ -23,8 +23,8 @@ public void setRoom(String room) {
 
 @Override
 public String toString() {
-	return "\n********************" + "\nInPersonCourse " +  "\ncourseNum: " + super.getCourseNum() + "\nnumSt: " + super.getNumSt() + "\nmaxSt: " + super.getMaxSt() + "\ncredits: "
-			+ super.getCredits() + "\nRoom: " + Room + "\n********************";
+	return "\n********************" + "\nInPersonCourse " +  "\ncourseNum: " + super.getCourseNum() + "\nnumSt: " + super.getNumSt() + "\nmaxSt: " + 
+super.getMaxSt() + "\ncredits: " + super.getCredits() + "\nRoom: " + Room + "\n********************";
 }
 
 

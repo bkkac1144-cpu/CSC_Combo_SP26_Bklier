@@ -1,10 +1,16 @@
 
+/**
+ * where we set our values
+ */
 public class Course {
 	private String courseNum = "";
 	private int numSt = 0;
 	private int maxSt = 0;
 	private double credits = 0;
 
+	/**
+	 * This is where the values are actually set 
+	 */
 	public Course() {
 		super();
 		this.numSt = 0;
@@ -13,6 +19,14 @@ public class Course {
 		this.courseNum = "";
 	}
 
+	/**
+	 * this allows the values to be called upon
+	 * 
+	 * @param courseNum is the value for the course number that is called
+	 * @param numSt this is the called value for student numbers
+	 * @param maxSt this is the value that is called for the maximum students
+	 * @param credits this is the value that is called for credits
+	 */
 	public Course(String courseNum, int numSt, int maxSt, double credits) {
 		super();
 		this.courseNum = courseNum;
@@ -21,6 +35,10 @@ public class Course {
 		this.credits = credits;
 	}
 
+	/**
+	 * these are the setters and getters provided by the system
+	 * @return
+	 */
 	public String getCourseNum() {
 		return courseNum;
 	}

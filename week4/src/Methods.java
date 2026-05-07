@@ -1,4 +1,4 @@
-public class Methods {
+public class Methods{
 	import java.util.Scanner;
 	
 	Scanner input = new Scanner(System.in);
@@ -56,4 +56,4 @@ private static void threeline() {
 	}
 	
 	
-}
+

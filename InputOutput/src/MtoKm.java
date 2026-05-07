@@ -9,7 +9,7 @@ public class MtoKm {
 		System.out.println("How many miles?");
 		double miles = input.nextDouble();
 		
-		kM = miles * 1.60934;
+		double kM = miles * 1.60934;
 		
 		System.out.printf("There are %.3f Kilometers in %3f miles", kM, miles);
 
